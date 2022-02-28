@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>  
+        <meta charset="utf-8" name="viewpoint" ccontent="width=devuce-width", initial-scale=1.0, minimum-scale=1.0, user-scalable="no"/>
+        <title>모듬샵(모바일)</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+        <style>
+            *{margin:0; padding:0;}
+            a {text-decoration: none;}
+            #header .title {
+                height:50px;
+                line-height:50px;
+                padding:10px;
+                background:#c5fffc;
+                text-align:center;
+                overflow:hidden;
+                position:relative;
+            }
+            #header .title a{
+                color:skyblue;
+                font-size:5em;
+                font-family:"Dongle";
+            }
+            #header .title label{
+                width:50px;
+                height:50px;
+                background:#cccccc;
+                position:absolute;
+                right:10px;
+                font-weight:bold;
+                font-size:1.3em;
+                border-radius:5px;
+            }
+            #header .title label:hover {
+                border:2px solid #000000;
+                box-sizing: border-box;
+            }
+            #toggle{display:none;}
+            #toggle:checked ~ #header .nav{display:block;} 
+            #header .nav {
+                display:none;
+                background-color: rgb(83, 83, 167);
+            }
+            #header .nav ul{
+                height:30px;
+                line-height:30px;
+                overflow:hidden;
+            }
+            #header .nav ul li {
+                list-style:none;
+                float:left;
+                width:25%;
+                text-align:center;
+            }
+            #header .search {
+                position:relative;
+                background:cadetblue;
+                width:100%;
+                height:30px;
+                line-height:30px;
+                overflow:hidden;
+            }
+            #header .search input {
+                width:100%;
+                height:30px;
+                padding:5px;
+                float:left;
+                border:2.5px solid cadetblue;
+                box-sizing: border-box;
+            }
+            #header .search a {
+                width:25px;
+                height:25px;
+                line-height: 25px;
+                text-align: center;
+                font-weight: bold;
+                position:absolute;
+                float:left;
+                right:0px;
+                font-size:0.6em;
+                background:chartreuse;
+                margin:2px;
+                border-radius: 3px;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <input id="toggle" type="checkbox" />
+        <div id="header" name="header">
+            <div class="title">
+                <a href="스마트폰.html">모듬#(shop)</a>
+                <label class="menu" for="toggle" onclick="">메뉴</label>
+            </div>
+            <div class="nav" name="navi">
+                <ul>
+                    <li><a href="login.html" target="_self">로그인</a></li>
+                    <li><a href="#none">회원가입</a></li>
+                    <li><a href="#none">마이페이지</a></li>
+                    <li><a href="#none">장바구니</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input type="text" id="search-bar" placeholder="검색어를 입력하시오." />
+                <a href="#none">검색</a>
+            </div>
+        </div>
+        <h1></h1>
+        <script src="testJS.js">
+        </script>
+    </body>
+</html>
