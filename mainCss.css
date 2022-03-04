@@ -1,14 +1,14 @@
-* {margin:0; padding:0;}
+* {margin:0; padding:0; font-family: Dongle;}
 a {text-decoration:none;}
 ul {list-style:none;}
 #toggle{display:none;}
 #div-for-fixed-bar{
-    width:1200px;
-    height:45px;
+    width:1500px;
+    height:100px;
     margin:0 auto;
 }
 #topnav {
-    width:1200px;
+    width:1500px;
     background-color:#d3e9ff;
     border-radius:10px;
     margin:0 auto;
@@ -20,8 +20,8 @@ ul {list-style:none;}
 #topnav ul li{
     float:left;
     width:auto;
-    height:35px;
-    line-height: 35px;
+    height:50px;
+    line-height:50px;
     padding:0 5px;
     margin:5px;
     text-align: center;
@@ -31,12 +31,12 @@ ul {list-style:none;}
 #topnav ul li a{
     display:block;
     font-family: 'Dongle', sans-serif;
-    font-size:2em;
+    font-size:3em;
     color:#444444; 
 }
 #topnav ul li a:hover {
     color:black;
-    font-size:2.1em;
+    font-size:3.1em;
 }
 #topnav .search{
     float:right;
@@ -44,18 +44,20 @@ ul {list-style:none;}
 }
 #topnav .search a{
     float:right;
-    width:50px;
-    height:30px;
-    line-height:30px;
+    width:75px;
+    height:50px;
+    line-height:50px;
     text-align:center;
+    font-size:2em;
     background:white;
     border-radius:15px;
 }
 #topnav .search input{
     width:500px;
-    height:30px;
+    height:50px;
     padding:0 5px;
     margin-right:5px;
+    font-size:1.5em;
     border:2px solid #4d4d4d;
     border-radius:15px;
     right:0;
@@ -116,40 +118,48 @@ section #dynamic-banner .image{
 section #first-section{
     margin-top:10px;
     overflow:hidden;
-    height:800px;
+    height:400px;
 }
 section #first-section .left-banner {
     float:left;
     width:120px;
-    height:800px;
+    height:400px;
     box-sizing:border-box;
     border:1px solid #cccccc;
+    text-align:center;
+    font-size:3em;
 }
 section #first-section .left-banner ul{
     text-align: center;
     display:block;
 }
 section #first-section .left-banner ul li {
+    display:inline-block;
     width:100px;
     height:50px;
     line-height:50px;
-    margin:10px;
-    text-align: center;
-    background-color: #d3e9ff;
+    border-radius: 10px;
+    background-color: #a3d1ff;
 }
 section #first-section .left-banner ul li a{
     display:block;
+    color:white;
 }
-section #first-section .main-section {
+section #first-section .left-banner ul li a:hover{
+    text-decoration: underline;
+    font-weight:bold;
+}
+section #second-section {
     float:left;
     width:1070px;
-    height:800px;
+    height:400px;
     box-sizing:border-box;
     border:1px solid black;
 }
 footer{
     overflow:hidden;
     padding-bottom:100px;
+    font-size:2em;
 }
 footer a{
     color:black;
