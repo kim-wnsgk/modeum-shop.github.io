@@ -156,6 +156,45 @@ section #second-section {
     box-sizing:border-box;
     border:1px solid black;
 }
+section #second-section h2{ 
+    font-size:4em;
+}
+section #second-section ul{
+    list-style:none;
+    overflow:hidden;
+}
+section #second-section ul li{
+    width:200px;
+    height:200px;
+    margin:0 5px;
+    float:left;
+    border:1px solid #cccccc;
+    border-radius: 100px;
+}
+section #second-section ul li a{
+    display:block;
+    width:200px;
+    height:200px;
+}
+section #second-section ul li a .number{
+    width:50px;
+    height:50px;
+    text-align:center;
+    border-radius:10px;
+    color:white;
+    line-height:50px;
+    font-size:3em;
+    position:absolute;
+    background-color: #9c9c9c;
+}
+section #second-section ul li a .best-items{
+    width:200px;
+    height:200px;
+    box-sizing: border-box;
+}
+section #second-section ul li a div{
+    position:relative;
+}
 footer{
     overflow:hidden;
     padding-bottom:100px;
