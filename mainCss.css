@@ -120,7 +120,7 @@ section #first-section{
     overflow:hidden;
     height:400px;
 }
-section #first-section .left-banner {
+section #first-section #category-banner {
     float:left;
     width:120px;
     height:400px;
@@ -129,11 +129,11 @@ section #first-section .left-banner {
     text-align:center;
     font-size:3em;
 }
-section #first-section .left-banner ul{
+section #first-section #category-banner ul{
     text-align: center;
     display:block;
 }
-section #first-section .left-banner ul li {
+section #first-section #category-banner ul li {
     display:inline-block;
     width:100px;
     height:50px;
@@ -141,29 +141,32 @@ section #first-section .left-banner ul li {
     border-radius: 10px;
     background-color: #a3d1ff;
 }
-section #first-section .left-banner ul li a{
+section #first-section #category-banner ul li a{
     display:block;
     color:white;
 }
-section #first-section .left-banner ul li a:hover{
+section #first-section #category-banner ul li a:hover{
     text-decoration: underline;
     font-weight:bold;
 }
-section #second-section {
+section #first-section #best-items {
     float:left;
     width:1070px;
     height:400px;
     box-sizing:border-box;
     border:1px solid black;
 }
-section #second-section h2{ 
+section #first-section #best-items h2{ 
     font-size:4em;
+    text-align: center;
 }
-section #second-section ul{
+section #first-section #best-items ul{
     list-style:none;
     overflow:hidden;
+    height:250px;
+    border:1px dashed #cccccc; 
 }
-section #second-section ul li{
+section #first-section #best-items ul li{
     width:200px;
     height:200px;
     margin:0 5px;
@@ -171,12 +174,12 @@ section #second-section ul li{
     border:1px solid #cccccc;
     border-radius: 100px;
 }
-section #second-section ul li a{
+section #first-section #best-items ul li a{
     display:block;
     width:200px;
     height:200px;
 }
-section #second-section ul li a .number{
+section #first-section #best-items ul li a .number{
     width:50px;
     height:50px;
     text-align:center;
@@ -187,13 +190,20 @@ section #second-section ul li a .number{
     position:absolute;
     background-color: #9c9c9c;
 }
-section #second-section ul li a .best-items{
+section #first-section #best-items ul li a .best-items{
     width:200px;
     height:200px;
     box-sizing: border-box;
 }
-section #second-section ul li a div{
+section #first-section #best-items ul li a span{
     position:relative;
+    font-weight:bold;
+    left:10px;
+    font-size:1.5em;
+}
+section #second-section{
+    height:400px;
+    overflow:hidden;
 }
 footer{
     overflow:hidden;
