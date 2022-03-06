@@ -10,3 +10,4 @@ rightImage.addEventListener("click", function(){
     image.style.backgroundImage = "url(./images/deumseong.jpg)";
 })
 
+alert("환영합니다.");

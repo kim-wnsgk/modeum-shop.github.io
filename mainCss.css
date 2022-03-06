@@ -16,6 +16,7 @@ ul {list-style:none;}
     top:0;
     left:auto;
     overflow:hidden;
+    z-index:10;
 }
 #topnav ul li{
     float:left;
