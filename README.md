@@ -2,4 +2,4 @@
 shopping mall site for pet
 ---
 mozzi's image
-![mozzi](./img/sleeping_mozzi.jpg)
+![mozzi](./images/sleeping_mozzi.jpg)
